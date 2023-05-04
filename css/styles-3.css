@@ -1,0 +1,163 @@
+
+body {	
+
+    font-family: 'Oswald', sans-serif;
+    color: #84c754;
+    margin: 0;
+    background-color: #282a35ea;
+}
+
+#bodyDiv{
+    background-color: #282a35ea;
+}
+
+a{
+    color: goldenrod;
+    text-decoration: none; 
+}
+
+a:hover{
+    color: #84c754;
+    background-color: transparent;
+    font-style: bold;
+}
+
+ul {		
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+ul li {
+    float: left;  	
+    padding: 10px;	
+    font-size: 120%;
+    color: #282a35e5;
+}
+
+#headerDiv{
+    background-color: #282a35f8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.596);
+    justify-content: space-between;
+    display: flex;
+    height: 5em;
+}
+#headerDiv:hover{
+    background-color: white;
+}
+
+#headerName{
+    margin-left: 1em;
+}
+
+#navBar{
+    padding-top: 1em;
+}
+
+#navBar li{
+    /*  */
+    color: goldenrod;
+    
+}
+
+#spaceHeaderRight{
+    padding: 5%;
+}
+
+#homeDiv{
+    height: 40em;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 5em;
+    background-image: url("flutterBackground.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#innerHomeDiv{
+    margin-top: -0.5em;
+    background-image: linear-gradient(to right, #282a35e5 , #282a35);
+    height: 40em;
+    padding-top: 0.5em;
+    padding-bottom: 5em;
+}
+
+
+.homeTitle{
+    font-family: 'Bruno Ace SC', cursive;
+    color: goldenrod;
+    font-size:5em;
+    margin: 2em 0 0 0;
+}
+
+#animProfessions{
+    color: white;
+}
+
+#homeDivP{
+    font-size: 1.2em;
+    margin: 1em 10% 0 10%;
+    border-top: 2% solid white;
+    box-sizing: border-box;
+}
+
+#expertiseDiv{
+    padding-top: 1em;
+    height: 40em;
+    background-color: goldenrod;
+    color: white;
+    text-align: center;
+}
+
+#expertiseHeading{
+    font-size:3em;
+}
+
+#blockHolder{
+    display: flex;
+    justify-content: center;
+}
+
+.blockHedaing{
+    margin: 5px;
+}
+
+.blockDiv{
+    margin: 0 2em 0 2em;
+    width: 20%;
+    height: 15em;
+    color: #282a35e5;
+    border-top: 2px solid #282a35e5;
+}
+
+#myLanguagesHr{
+    border-width: 0;
+    margin-top: 10em;
+}
+
+#languesDiv{
+    display: flex;
+    justify-content: center;
+    padding: 0 2em 0 2em;
+}
+
+.language{
+    font-family: 'Sigmar', cursive;
+    color: #282a35e5;
+    padding: 0 3em 0 3em;
+}
+
+#contactDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    padding: 1em;
+}
