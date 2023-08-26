@@ -10,7 +10,6 @@ function animProfessions(){
   var animProfessionsEle = document.getElementById("animProfessions");
 
   if(count<=proffessions.length-1){
-    console.log(count);
     animProfessionsEle.innerHTML = proffession;
     count++;
   }else{
