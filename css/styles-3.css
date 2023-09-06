@@ -83,23 +83,27 @@ ul li {
 #innerHomeDiv{
     display: flex;
     margin-top: -0.5em;
-    background-image: linear-gradient(to left, #282a35cb , #282a35);
+    background-image: linear-gradient(to right, #282a35ec , #282a35);
     height: 40em;
     padding: 10em 5em 5em 5em;
 }
 
 #storyDiv{
-    height: 70%;
-    padding-top: 2em;
+    padding: 4em 2em 2em 2em;
     width: 70%;
-    background-image: linear-gradient(to top, rgba(218, 165, 32, 0.699) , rgb(218, 165, 32));
-    border-radius: 20px;
+    height:70%;
+    margin-top: -3em;
+    
 }
 
 #heroDiv{
     width: 30%;
-    padding:1em;
-    width: 30%;
+    height: 80%;
+    padding:1em 0 0 0;
+    margin-top: -4em;
+    background-color: goldenrod;
+    border-radius: 20px;
+    
 }
 
 
@@ -111,19 +115,18 @@ ul li {
 }
 
 #animProfessions{
-    color: white;
+    color: #282a35;
 }
 
 #homeDivP{
-    font-size: 1.2em;
-    margin: 1em 10% 0 10%;
-    color: #282a35e5;
-    border-top: 2% solid #282a35e5;
+    color: goldenrod;
 }
 
 #homeDivH{
-    color: #282a35e5;
+    color: goldenrod;
     font-weight: 900;
+    font-size: 3em;
+    font-style: italic;
 }
 
 #expertiseDiv{
